@@ -1,0 +1,18 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{lcc}
+\toprule
+& European Call & Cash-or-nothing Digital \\
+\midrule
+Semi-analytical reference & $0.683837$ & $0.00033565$ \\
+Malliavin BEL & $2.878635$ & $0.00299359$ \\
+MC standard deviation & $5.60159175$ & $0.0052364326$ \\
+Relative error & $320.953\\%$ & $791.872\\%$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{ATM Delta via Malliavin vs. semi-analytical reference.}
+Parameters: $\hat\kappa=2.154$, $\hat\theta=0.0448$, $\hat\xi=0.551$,
+$\hat\rho=-0.623$, $\hat v_0=0.0577$, $S_0=5000$, $r=5.25\%$, $q=1.3\%$,
+$T=1$Y, $K=S_0$ (ATM), $N=200,000$, $N_{{steps}}=252$.}
+\label{tab:delta_atm}
+\end{table}

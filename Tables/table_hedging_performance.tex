@@ -1,0 +1,12 @@
+\begin{table}[h!]\centering
+\begin{tabular}{llccccc}\toprule
+Payoff & Method & Mean & Std & RMSE & $P_5$ & $P_{95}$ \\\midrule
+Call & No hedge & $-20.2693$ & $630.8735$ & $631.1991$ & $-1201.6004$ & $538.1128$ \\
+Call & FD ($h^*=0.38\%$) & $121.3185$ & $302.3483$ & $325.7801$ & $-438.1356$ & $547.8145$ \\
+Call & Malliavin reg. & $170.0568$ & $507.1730$ & $534.9241$ & $-698.0925$ & $1001.3395$ \\
+Digital & No hedge & $-0.0419$ & $0.4754$ & $0.4772$ & $-0.3869$ & $0.6131$ \\
+Digital & FD ($h^*=0.38\%$) & $0.0303$ & $0.2978$ & $0.2993$ & $-0.3484$ & $0.6178$ \\
+Digital & Malliavin reg. & $0.1142$ & $0.4597$ & $0.4736$ & $-0.6114$ & $0.9625$ \\
+\bottomrule\end{tabular}
+\caption{\textbf{Dynamic Delta-hedging performance.} $M=12$ monthly rebalancings, $T=1$Y, ATM ($K=S_0$), $N=400$ outer paths, $N_{inner}=2000$.}
+\label{tab:hedging_performance}\end{table}
