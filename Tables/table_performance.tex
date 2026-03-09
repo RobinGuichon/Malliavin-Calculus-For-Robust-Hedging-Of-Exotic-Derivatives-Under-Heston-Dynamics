@@ -1,0 +1,19 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{rcccc}
+\toprule
+$N$ & Euler FT (s) & QE (s) & QE/Euler & QE per path ($\mu$s) \\
+\midrule
+1,000 & 0.075 & 0.311 & 4.17$\times$ & 311.0 \\
+10,000 & 0.380 & 0.754 & 1.98$\times$ & 75.4 \\
+100,000 & 3.377 & 4.044 & 1.20$\times$ & 40.4 \\
+500,000 & 12.976 & 23.598 & 1.82$\times$ & 47.2 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Computational Performance: Euler vs QE.}
+CPU times for $N_{steps}=252$, $T=1Y$. The QE scheme is typically
+2--3$\times$ slower per path than Euler due to its per-step
+branching (exponential vs quadratic regime), but delivers significantly
+lower bias in the variance process.}
+\label{tab:cpu_performance}
+\end{table}

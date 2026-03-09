@@ -1,0 +1,22 @@
+\begin{table}[h!]
+\centering
+\begin{tabular}{lccc}
+\toprule
+\textbf{Parameter} & \textbf{Symbol} & \textbf{Calibrated Value} & \textbf{Economic Interpretation} \\
+\midrule
+Mean-reversion speed  & $\kappa$ & 2.1539 & Half-life $\approx 0.32$ years \\
+Long-run variance     & $\theta$ & 0.0448 & $\sigma_{LR} = 21.16\%$ \\
+Vol-of-vol            & $\xi$    & 0.5507 & Smile curvature \\
+Asset-vol correlation & $\rho$   & -0.6229 & Leverage effect (negative skew) \\
+Initial variance      & $v_0$    & 0.0577 & $\sigma_0 = 24.02\%$ \\
+\midrule
+\multicolumn{2}{l}{Global RMSE} & \multicolumn{2}{r}{$1.1039$ vol pts} \\
+\multicolumn{2}{l}{Feller condition $2\kappa\theta > \xi^2$} & \multicolumn{2}{r}{$\times$ violated} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Heston Calibration Results.}
+Calibrated parameters obtained by hybrid Differential Evolution +
+Levenberg-Marquardt optimization on the S\&P~500 implied volatility surface.
+Vega-weighted RMSE criterion.}
+\label{tab:calibration_results}
+\end{table}

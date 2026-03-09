@@ -1,0 +1,50 @@
+{
+  "kappa": 2.1539,
+  "theta": 0.0448,
+  "xi": 0.5507,
+  "rho": -0.6229,
+  "v0": 0.0577,
+  "S0": 5000.0,
+  "r": 0.0525,
+  "q": 0.013,
+  "N_steps_recommended": 252,
+  "N_paths_recommended": 100000,
+  "scheme": "QE",
+  "weak_error_call_atm": 123.16415350090091,
+  "weak_error_digital_atm": 0.07098879624423415,
+  "delta_call_atm_malliavin": 2.878635217853103,
+  "delta_dig_atm_malliavin": 0.002993586001557165,
+  "delta_call_atm_reference": 0.683837217125074,
+  "delta_dig_atm_reference": 0.00033565199478124974,
+  "delta_N_paths": 200000,
+  "std_call_atm_malliavin": 5.601591751879062,
+  "std_dig_atm_malliavin": 0.005236432634453236,
+  "hedging_M_rebal": 12,
+  "hedging_N_outer": 400,
+  "hedging_N_inner": 2000,
+  "rmse_call_fd_monthly": 325.78012517667173,
+  "rmse_call_mal_monthly": 534.9240586344584,
+  "rmse_digital_fd_monthly": 0.2992938638338984,
+  "rmse_digital_mal_monthly": 0.4736245967894963,
+  "hedging_M_list": [
+    1,
+    2,
+    4,
+    12,
+    252
+  ],
+  "rmse_fd_by_freq": [
+    0.4760272364976487,
+    0.4298166417949668,
+    0.39037247137436976,
+    0.3256471275972979,
+    0.20471370561016508
+  ],
+  "rmse_mal_by_freq": [
+    0.4760272364976487,
+    0.453810728887705,
+    0.4570140977333978,
+    0.4294764313507049,
+    0.43424440689875665
+  ]
+}
