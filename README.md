@@ -50,7 +50,7 @@ Calibrates the Heston model to the S&P 500 implied volatility surface using a hy
 - **Feller condition violated**: $2\hat{\kappa}\hat{\theta} = 0.193 < \hat{\xi}^2 = 0.303$ → $\hat{\alpha} = 0.637$
 - Bootstrap stability analysis: $\hat{\theta}$, $\hat{\rho}$, $\hat{v}_0$ stable; $\hat{\kappa}$ most sensitive
 
-![Implied Volatility Surface — Market vs Calibrated Heston](Images_Part_IV/figure_3D_surfaces.png)
+![Implied Volatility Surface — Market vs Calibrated Heston](Images_Part_IV/PNG/figure_3D_surfaces.png)
 
 ---
 
@@ -70,7 +70,7 @@ Compares two discretisation schemes for the Heston SDE:
 The QE scheme exhibits a systematic **downward bias** under $\hat{\rho} = -0.623 \neq 0$ due to the independent sampling of the joint law $(v_{t+1}, S_{t+1})$. **Euler Full Truncation is adopted** for all subsequent experiments.
 
 
-![QE Bias vs Euler FT — Price Comparison](Images_Part_IV/figure_strong_convergence.png)
+![QE Bias vs Euler FT — Price Comparison](Images_Part_IV/PNG/figure_strong_convergence.png)
 
 ---
 
@@ -93,7 +93,7 @@ Derives and implements two classes of Malliavin weights for the **Delta** of Eur
 The singular weight's infinite variance under $\hat{\alpha} = 0.637 < 1$ is the root cause of the 321–792% errors. The regular weight is admissible but introduces a **60% systematic bias** for discontinuous payoffs.
 
 
-![Delta Convergence — FD vs Malliavin vs Reference](Images_Part_IV/figure_delta_smile.png)
+![Delta Convergence — FD vs Malliavin vs Reference](Images_Part_IV/PNG/figure_delta_smile.png)
 
 ---
 
@@ -112,9 +112,9 @@ Compares three delta-hedging strategies across rebalancing frequencies $M \in \{
 
 FD RMSE decreases **monotonically** with rebalancing frequency. Malliavin RMSE remains **flat** across all frequencies — a signature of a bias-dominated estimator.
 
-![Hedging RMSE vs Rebalancing Frequency](Images_Part_IV/figure_hedging_frequency.png)
+![Hedging RMSE vs Rebalancing Frequency](Images_Part_IV/PNG/figure_hedging_frequency.png)
 
-![P&L Distribution — FD vs Malliavin Hedging (Digital)](Images_Part_IV/figure_pnl_distributions.png)
+![P&L Distribution — FD vs Malliavin Hedging (Digital)](Images_Part_IV/PNG/figure_pnl_distributions.png)
 
 ---
 
