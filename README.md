@@ -166,10 +166,19 @@ The full thesis is available in [`Projet_Report.pdf`](./Projet_Report.pdf).
 
 ## References
 
-- Heston, S. (1993). *A Closed-Form Solution for Options with Stochastic Volatility*
-- Fournié et al. (1999). *Applications of Malliavin Calculus to Monte Carlo Methods in Finance*
-- Carr, P. & Madan, D. (1999). *Option Valuation using the Fast Fourier Transform*
-- Andersen, L. (2008). *Simple and Efficient Simulation of the Heston Stochastic Volatility Model*
-- Lord, R., Koekkoek, R. & Van Dijk, D. (2010). *A Comparison of Biased Simulation Schemes for Stochastic Volatility Models*
-- Nualart, D. (2006). *The Malliavin Calculus and Related Topics*
-- Gatheral, J. (2006). *The Volatility Surface: A Practitioner's Guide*
+- [1] F. Black, M. Scholes, *The Pricing of Options and Corporate Liabilities*, Journal of Political Economy, vol. 81, no. 3, pp. 637–654, 1973.
+- [2] S. L. Heston, *A Closed-Form Solution for Options with Stochastic Volatility with Applications to Bond and Currency Options*, The Review of Financial Studies, vol. 6, no. 2, pp. 327–343, 1993.
+- [3] J. C. Cox, J. E. Ingersoll, S. A. Ross, *A Theory of the Term Structure of Interest Rates*, Econometrica, vol. 53, no. 2, pp. 385–408, 1985.
+- [4] T. Yamada, S. Watanabe, *On the Uniqueness of Solutions of Stochastic Differential Equations*, Journal of Mathematics of Kyoto University, vol. 11, no. 1, pp. 155–167, 1971.
+- [5] L. B. G. Andersen, V. V. Piterbarg, *Moment Explosions in Stochastic Volatility Models*, Finance and Stochastics, vol. 11, no. 1, pp. 29–50, 2007.
+- [6] D. Duffie, J. Pan, K. Singleton, *Transform Analysis and Asset Pricing for Affine Jump-Diffusions*, Econometrica, vol. 68, no. 6, pp. 1343–1376, 2000.
+- [7] J. Gil-Pelaez, *Note on the Inversion Theorem*, Biometrika, vol. 38, no. 3–4, pp. 481–482, 1951.
+- [8] H. Albrecher, P. Mayer, W. Schachermayer, J. Teichmann, *The Moment Formula for Implied Volatility at Extreme Strikes*, Mathematical Finance, vol. 17, no. 4, pp. 1–14, 2007.
+- [9] D. Nualart, *The Malliavin Calculus and Related Topics*, 2nd ed., Springer, Berlin, 2006.
+- [10] E. Fournié, J.-M. Lasry, J. Lebuchoux, P.-L. Lions, N. Touzi, *Applications of Malliavin Calculus to Monte Carlo Methods in Finance*, Finance and Stochastics, vol. 3, no. 4, pp. 391–412, 1999.
+- [11] E. Alòs, C.-O. Ewald, *Malliavin Differentiability of the Heston Volatility and Applications to Option Pricing*, Advances in Applied Probability, vol. 40, no. 1, pp. 144–162, 2008.
+- [12] A. Kohatsu-Higa, M. Montero, *Malliavin Calculus in Finance*, in Handbook of Computational and Numerical Methods in Finance, Birkhäuser, Boston, pp. 111–174, 2004.
+- [13] P. Carr, D. Madan, *Option Valuation Using the Fast Fourier Transform*, Journal of Computational Finance, vol. 2, no. 4, pp. 61–73, 1999.
+- [14] R. Lord, R. Koekkoek, D. Van Dijk, *A Comparison of Biased Simulation Schemes for Stochastic Volatility Models*, Quantitative Finance, vol. 10, no. 2, pp. 177–194, 2010.
+- [15] L. B. G. Andersen, *Simple and Efficient Simulation of the Heston Stochastic Volatility Model*, Journal of Computational Finance, vol. 11, no. 3, pp. 1–42, 2008.
+- [16] J. Gatheral, *The Volatility Surface: A Practitioner's Guide*, Wiley Finance, Hoboken, 2006.
